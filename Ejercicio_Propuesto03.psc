@@ -6,6 +6,4 @@ Algoritmo Ejercicio_Propuesto03
 	Mostrar ''
 	c=RC((a^2)+(b^2))
 	Mostrar 'El valor de la hipotenusa es: ',c
-
-	
 FinAlgoritmo
