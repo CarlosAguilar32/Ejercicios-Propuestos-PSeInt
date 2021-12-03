@@ -11,7 +11,8 @@ Algoritmo Ejercicio_Propuesto07_2
 		i=i+1
 		Leer stop
 		
-		si stop='calcular'
+		si stop='calcular' Entonces
+			
 			notas=notas
 			sumatoria=sumatoria+notas	
 		FinSi
