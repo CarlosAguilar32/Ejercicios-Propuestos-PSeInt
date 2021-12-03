@@ -14,6 +14,7 @@ Algoritmo Ejercicio_Propuesto06
 		FinSi
 	FinSi
 	HoraRestante=HoraEstadia -1
+	
 	Pago=100+(HoraRestante+600)
 De Otro Modo:
 	Pago=1000
