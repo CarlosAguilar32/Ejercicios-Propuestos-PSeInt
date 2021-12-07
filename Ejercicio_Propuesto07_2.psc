@@ -1,12 +1,15 @@
 Algoritmo Ejercicio_Propuesto07_2
 	//Sin terminar
 	Mostrar 'Ingrese las notas'
-	Mostrar ''
-	definir notas como entero
-	definir stop como entero
+	definir stop Como Caracter
+	sumatoria=0
 	i=1
 
-	Mientras stop<>'calcular' Hacer
+	Mientras stop <> "calcular" Hacer
+		leer stop
+		si stop <> "calcular" entonces
+			stop = ConvertirANumero(sumatoria)
+		FinSi
 		mostrar 'repetición ',i
 		i=i+1
 		Leer stop
